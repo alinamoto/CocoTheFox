@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CocoTheFox/static/css/main.e9beeb44.css",
+    "main.js": "/CocoTheFox/static/js/main.4fc00cb6.js",
+    "static/media/fox.jpg": "/CocoTheFox/static/media/fox.8c37011be5687d4c5fc1.jpg",
+    "index.html": "/CocoTheFox/index.html",
+    "main.e9beeb44.css.map": "/CocoTheFox/static/css/main.e9beeb44.css.map",
+    "main.4fc00cb6.js.map": "/CocoTheFox/static/js/main.4fc00cb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9beeb44.css",
+    "static/js/main.4fc00cb6.js"
+  ]
+}
