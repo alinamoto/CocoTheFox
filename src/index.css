@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(54, 49, 54);
+    margin: 0;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 936px;
+}
+
+#root {
+    width: 560px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(31, 28, 31);
+    justify-content: space-between;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.profile-img {
+    height: 270px;
+    border-radius: 20px;
+}
+
+.profile_name {
+    font-size: 50px;
+    border: groove grey 2px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.profile_name:hover {
+    transform: scale(0.9);
+}
+
+.profile_job {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.email_button, .li_button {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+}
+
+.email_button {
+    width: 180px;
+    height: 40px;
+    border: none;
+    
+}
+
+.email_icon {
+    width: 60px;
+    padding: 15px;
+}
+
+.email_text {
+    color:rgb(63, 63, 63);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email_button:hover {
+    border: solid rgb(104, 104, 104) 2px;
+}
+
+.li_icon {
+    width: 30px;
+    padding: 10px;
+}
+
+.li_button {
+    width: 180px;
+    height: 40px;
+    background-color: rgba(13, 69, 181, 0.53);
+    border: none;
+}
+
+.li_button:hover {
+    border: solid rgb(50, 50, 255) 2px;
+}
+
+
+.li_text {
+    color:rgb(103, 143, 222);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about_title {
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about_title:hover {
+    font-style: oblique;
+}
+
+
+.about_ul {
+    list-style-type: none;
+}
+
+.instagram, .facebook, .twitter, .github {
+    padding-left: 15px;
+    height: 30px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+.instagram:hover, .facebook:hover, .twitter:hover, .github:hover {
+    height: 48px;
+}
+
+.interests_title {
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.interests_title:hover {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
